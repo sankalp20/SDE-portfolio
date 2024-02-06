@@ -32,7 +32,7 @@ function Navbar({ setMode, mode }) {
           <div className='logo'>
             <span className="logo-sides"> &lt;</span>
             <a className='logo-text' href="/">
-              Shakir Farhan
+              Sankalp Swarup
             </a>
             <span className="logo-sides">/&gt;</span>
           </div>

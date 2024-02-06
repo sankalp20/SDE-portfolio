@@ -12,7 +12,8 @@ function Footer() {
             <li><BiPalette size={24} /></li>
           </ul>
         </div>
-        <p className="text-center text-[var(--white-primary)] mt-2">Spark your creativity. Write your own code. Paint your dreams.</p>
+        <p className="text-center text-[var(--white-primary)] mt-2">Innovate, iterate, inspire</p>
+        <p className="text-center text-[var(--white-primary)] mt-2">Building tomorrow's solutions, today.</p>
       </div>
     </footer>
 

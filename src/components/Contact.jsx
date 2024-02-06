@@ -5,8 +5,7 @@ import emailjs from '@emailjs/browser';
 import "../css/contact.css"
 import classNames from 'classnames'
 
-import farhan from "../assets/farhan.jpg"
-// import farhan from "../assets/me.jpg"
+import sankalp from '../assets/sankalp.jpg'
 
 
 
@@ -17,7 +16,6 @@ import { BiLogoLinkedin, BiLogoGithub, BiLogoYoutube, BiLogoMedium } from "react
 const defaultFormValue = {
   name: "",
   email: "",
-  // budget: "",
   message: ""
 }
 function Contact() {
@@ -82,31 +80,22 @@ function Contact() {
           <div className='flex items-center gap-x-4'>
 
 
-            <a target='_blanck' rel="noreferrer" href='https://www.linkedin.com/in/shak1rfarhan/' className='px-2 py-[7px] bg-[#0e76a9] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
+            <a target='_blanck' rel="noreferrer" href='https://www.linkedin.com/in/sankalpswarup/' className='px-2 py-[7px] bg-[#0e76a9] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
 
               <BiLogoLinkedin className={socialsLogo} />
             </a>
-            <a target='_blanck' rel="noreferrer" href='https://github.com/ShakirFarhan' className='px-2 py-[7px] bg-[#333333] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
+            <a target='_blanck' rel="noreferrer" href='https://github.com/sankalp20' className='px-2 py-[7px] bg-[#333333] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
 
               <BiLogoGithub className={socialsLogo} />
             </a>
-            <a target='_blanck' rel="noreferrer" href='https://www.youtube.com/channel/UCAM0o-CucW9kQIdpreiW2NA' className='px-2 py-[7px] bg-[#ea4335] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
-              <BiLogoYoutube className="w-[30px] h-[30px] text-[#fff]" />
-
-            </a>
-            <a target='_blanck' rel="noreferrer" href='https://medium.com/@shakirfarhan28' className='px-2 py-[7px] bg-[#333333] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
-
-              <BiLogoMedium className={socialsLogo} />
-            </a>
-            <a target='_blanck' rel="noreferrer" href="mailto: shakirfarhan28@gmail.com" className='px-2 py-[7px] bg-[#ea4335] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
+            <a target='_blanck' rel="noreferrer" href="mailto: sankalpforwork@gmail.com" className='px-2 py-[7px] bg-[#ea4335] rounded-[50%] duration-500 ease-in-out hover:cursor-pointer hover:bg-[#000]'>
               <MdEmail className={socialsLogo} />
-
             </a>
 
           </div>
         </div>
         <div className='w-[250px] h-[240px] md:absolute md:right-0 md:-bottom-12'>
-          <img className='w-full h-full rounded-[50%] bg-[#fff] object-cover border-[10px] border-[#b16cea]' src={farhan} alt='Owner Profile' />
+          <img className='w-full h-full rounded-[50%] bg-[#fff] object-cover border-[8px] border-[#b16cea]' src={sankalp} alt='Owner Profile' />
         </div>
       </div>
       <section className='py-10 w-[100%] md:w-[65%] lg:w-[50%]'>
@@ -120,11 +109,6 @@ function Contact() {
             <label className={label}>Your Email </label>
             <input className={inputField} onChange={handleOnChange} name='email' type='email' placeholder='Enter your Email' value={formData.email} required />
           </div>
-          {/* <div className={inputDiv}>
-
-            <label className={label}>Your Budget </label>
-            <input className={inputField} onChange={handleOnChange} name='budget' type='text' placeholder='Enter Budget' value={formData.budget} />
-          </div> */}
           <div className={inputDiv}>
             <label className={label}>Tell me a bit more about you are looking for? </label>
             <textarea name='message' onChange={handleOnChange} className={inputField} rows={10} cols={10} maxLength={300} type='text' required value={formData.message} />
@@ -133,22 +117,6 @@ function Contact() {
         </form>
 
       </section>
-      {/* <section className='py-10'>
-        <div className='flex flex-col gap-y-5'>
-          <h2 className='text-[30px] sm:text-[38px] font-bold text-[var(--white-primary)] leading-[45px]'>Frequently Asked <br /> <GradientText text="Questions" />
-          </h2>
-          <p className='text-[13px] text-[#808080] font-semibold tracking-wide'>Answers to burning questions in your mind</p>
-          <button className='text-[14px] font-semibold tracking-wide text-[var(--white-primary)] w-fit px-6 rounded-[36px] py-3 bg-gradient-to-r from-[#B16CEA] via-[#FF5E69] via-[#FF8A56] to-[#ffa84b]'>CONTACT ME</button>
-
-        </div>
-
-        <div className='py-10 flex flex-col gap-y-8' >
-          <FAQ question="What is frontend development?" answer="Frontend development refers to the process of building and implementing the user interface (UI) and user experience (UX) elements of a website or application. It involves coding the HTML, CSS, and JavaScript that are responsible for the visual and interactive aspects that users see and interact with in their browsers." />
-          <FAQ question="How much does a website cost?" answer="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ullam voluptas omnis sit molestiae optio natus eaque!" />
-          <FAQ question="Do you provide SEO as well?" answer="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ullam voluptas omnis sit molestiae optio natus eaque!" />
-          <FAQ question="Will my website load quickly?" answer="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ullam voluptas omnis sit molestiae optio natus eaque!" />
-        </div>
-      </section> */}
     </section>
   )
 }

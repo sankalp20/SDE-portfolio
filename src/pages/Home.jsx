@@ -40,10 +40,10 @@ function Home() {
                 <div className='w-[96%] md:w-[50%] flex flex-col gap-y-[20px] items-start sm:items-center justify-between md:items-start' data-aos="fade-up"
                   data-aos-duration="1000">
                   <h1 className='text-[var(--white-primary)] font-bold tracking-[0.6px] text-[33px] sm:text-[40px] sm:text-center md:text-start md:text-[30px] lg:text-[40px] leading-[39px] md:leading-[35px] lg:leading-[40px] md:leading-[36px] lg:leading-[54px]'>
-                    <GradientText style={{ fontWeight: "700px" }} tag="h1" text="Hello, I am Shakir Farhan," />
-                    Full stack developer based in India
+                    <GradientText style={{ fontWeight: "700px" }} tag="h1" text="Hello, I am Sankalp Swarup," />
+                    Full Stack Developer based in India
                   </h1>
-                  <p className='text-[var(--white-primary)] text-[13.5px] font-medium tracking-wide sm:text-center md:text-start'>If your Looking for a developer who can work on both web and app projects and is willing to try out new roles? or if you need a versatile and motivated developer, feel free to reach out to me.</p>
+                  <p className='text-[var(--white-primary)] text-[13.5px] font-medium tracking-wide sm:text-center md:text-start'>If your Looking for a developer who can work on web projects and is willing to try out new roles? or if you need a versatile and motivated developer, feel free to reach out to me.</p>
                   <div className='flex sm:gap-x-3 gap-y-3 sm:gap-y-0 flex-col sm:flex-row'>
                     <a href='#contact' rel="noreferrer" className='gitintouchBTN px-6 py-3 rounded-[20px]  text-[var(--white-primary)]  font-bold tracking-[0.5px] text-[12px]'>GET IN TOUCH</a>
                     <button className='connectBTN px-6 py-3 rounded-[20px] border-[1px] border-[var(--white-secondary)] z-10 text-[var(--white-primary)] font-semibold tracking-[0.5px] text-[12px] hover:transform'><a href="https://drive.google.com/file/d/1XdmA3-H9ILI2FTuur4EF_q0Y4ntpY4VD/view?usp=sharing" target='_blanck'>SEE MY RESUME</a></button>
@@ -62,20 +62,20 @@ function Home() {
               <div className='flex flex-col items-start gap-y-2 md:gap-y-3 pb-6 md:w-[30%] lg:w-[35%] xl:w-[40%] md:pb-0' data-aos="fade-up-right"
                 data-aos-duration="4000">
 
-                <GradientText tag="h6" style={{ fontWeight: "700", fontSize: "18px", letterSpacing: "0.6px" }} text="Shakir Farhan" />
+                <GradientText tag="h6" style={{ fontWeight: "700", fontSize: "18px", letterSpacing: "0.6px" }} text="Sankalp Swarup" />
                 <h3 className='font-bold text-[26px] tracking-wide text-[var(--white-primary)]'>Full Stack Developer </h3>
               </div>
               <div className='md:w-[70%] lg:w-[60%] xl:w-[52%] flex flex-col gap-y-5' data-aos="fade-left" data-aos-duration="4000">
-                <p className='text-[var(--white-primary)] text-[17px] font-semibold tracking-wide'>I am a Full Stack developer, whose passionate about developing strong and engaging web and mobile applications.</p>
-                <p className='text-[var(--white-primary)] text-[12.5px] font-medium tracking-wide'>Along with that, I am an active participant in communities as a lead and member. Because I think it's important to share knowledge and learn from others, I've been able to keep up with the most recent business trends and best practises.</p>
+                <p className='text-[var(--white-primary)] text-[17px] font-semibold tracking-wide'>I am a Full Stack developer, whose passionate about developing strong and engaging responsive web applications.</p>
+                <p className='text-[var(--white-primary)] text-[12.5px] font-medium tracking-wide'>Along with that, I am certified Google Cloud Platform practitioner and had been an active participant in communities as a lead and speaker in Tech-i-nars. Because I think it's important to share knowledge and learn from others, I've been able to keep up with the most recent business trends and best practises.</p>
                 <div className='flex flex-col items-start gap-y-3 sm:flex-row sm:items-center sm:gapy-0 sm:gap-x-16'>
                   <div>
                     <GradientText tag="span" style={{ fontWeight: "700", fontSize: "12px", letterSpacing: "0.6px" }} text="PROJECTS DONE" />
-                    <p className='font-bold text-[29px] text-[var(--white-primary)]'>15+</p>
+                    <p className='font-bold text-[29px] text-[var(--white-primary)]'>25+</p>
                   </div>
                   <div>
                     <GradientText tag="span" style={{ fontWeight: "700", fontSize: "12px", letterSpacing: "0.6px" }} text="EXPERIENCE" />
-                    <p className='font-bold text-[29px] text-[var(--white-primary)]'>1.4 Year</p>
+                    <p className='font-bold text-[29px] text-[var(--white-primary)]'>1.5 Year</p>
                   </div>
                   <div>
                     <GradientText tag="span" style={{ fontWeight: "700", fontSize: "12px", letterSpacing: "0.6px" }} text="CLIENTS SATISFACTION" />
@@ -99,7 +99,8 @@ function Home() {
                   }
                 </div>
               </div>
-              <div className='pt-5 flex flex-col items-start md:items-center' data-aos="fade-down">
+              {/* <div className='pt-5 flex flex-col items-start md:items-center' data-aos="fade-down"> */}
+              <div className='pt-5' data-aos="fade-right" id='skills'>
                 <GradientText tag="span" style={{ fontWeight: "700", fontSize: "18px", letterSpacing: "0.6px" }} text="Backend & Databases" />
                 <div className='flex flex-wrap gap-x-3 gap-y-3 md:gap-x-6 pt-5 md:gap-y-6'>
                   {
@@ -111,8 +112,9 @@ function Home() {
                   }
                 </div>
               </div>
-              <div className='pt-5 flex flex-col items-start md:items-end' data-aos="fade-left">
-                <GradientText tag="span" style={{ fontWeight: "700", fontSize: "18px", letterSpacing: "0.6px" }} text="Other" />
+              {/* <div className='pt-5 flex flex-col items-start md:items-end' data-aos="fade-left"> */}
+              <div className='pt-5' data-aos="fade-right" id='skills'>
+                <GradientText tag="span" style={{ fontWeight: "700", fontSize: "18px", letterSpacing: "0.6px" }} text="Others" />
                 <div className='flex flex-wrap gap-x-3 gap-y-3 md:gap-x-6 pt-5 md:gap-y-6'>
                   {
                     other.map((item) => {
@@ -129,8 +131,8 @@ function Home() {
                 <GradientText text="Education" className="tracking-wide font-bold text-[38px] text-center mb-6" tag="span" />
               </div>
               <div className='grid gap-y-4 grid-cols-1 md:grid-cols-2 gap-x-4'>
-                <EducationCard duration="2021-2025" type="Graduation" degree="Bachelor's Degree" degreeType="B-Tech" course="Computer Science Engineering" schoolName="Institute of Aeronautical Engineering" schoolLocation="Hyderabad, Telangana, India" cardType={1} />
-                <EducationCard duration="2019-2021" type="High School" degree="Intermediate" course="Science (MPC)" schoolName="Narayana Junior College" schoolLocation="Hyderabad, Telangana, India" cardType={2} />
+                <EducationCard duration="2020-2024" type="Graduation" degree="Bachelor's Degree" degreeType="B-Tech" course="Computer Science and Engineering" schoolName="Vellore Institute of Technology" schoolLocation="Bhopal, Madhya Pradesh, India" cardType={1} />
+                <EducationCard duration="2016-2019" type="High School" degree="10th + Intermediate" course="Science (PCMB)" schoolName="DAV Public School" schoolLocation="Cuttack, Odisha, India" cardType={2} />
               </div>
             </section>
             <section className='pt-16 md:mx-auto max-w-7xl px-4 sm:px-10 md:px-8'>
@@ -171,7 +173,7 @@ function Home() {
                 }
               </div>
               <div className='flex items-center justify-center w-full mt-8'>
-                <button className='bg-[#feb901] transition ease duration-400 text-[#000] py-4 px-7 rounded-[30px] hover:bg-[#d39f0f]'><a className='flex items-center justify-center gap-x-2 text-[19px] font-bold' target='_blanck' href='https://github.com/ShakirFarhan'><FaGithub className='text-[25px]' /> See Github</a></button>
+                <button className='bg-[#feb901] transition ease duration-400 text-[#000] py-4 px-7 rounded-[30px] hover:bg-[#d39f0f]'><a className='flex items-center justify-center gap-x-2 text-[19px] font-bold' target='_blanck' href='https://github.com/sankalp20'><FaGithub className='text-[25px]' /> See Github</a></button>
               </div>
             </section>
             <Contact />
